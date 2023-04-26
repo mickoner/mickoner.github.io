@@ -300,8 +300,8 @@ code.highlighter-rouge {
   font-style: normal;
   font-weight: 400;
   font-display: auto;
-  src: url("/https://rejniak.com/assets/fonts/eb-garamond-v9-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local("EB Garamond Regular"), local("EBGaramond-Regular"), url("/https://rejniak.com/assets/fonts/eb-garamond-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("/https://rejniak.com/assets/fonts/eb-garamond-v9-latin-regular.woff2") format("woff2"), url("/https://rejniak.com/assets/fonts/eb-garamond-v9-latin-regular.woff") format("woff"), url("/https://rejniak.com/assets/fonts/eb-garamond-v9-latin-regular.ttf") format("truetype"), url("/https://rejniak.com/assets/fonts/eb-garamond-v9-latin-regular.svg#EBGaramond") format("svg"); /* Legacy iOS */
+  src: url("https://rejniak.com/assets/fonts/eb-garamond-v9-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("EB Garamond Regular"), local("EBGaramond-Regular"), url("https://rejniak.com/assets/fonts/eb-garamond-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("https://rejniak.com/assets/fonts/eb-garamond-v9-latin-regular.woff2") format("woff2"), url("https://rejniak.com/assets/fonts/eb-garamond-v9-latin-regular.woff") format("woff"), url("https://rejniak.com/assets/fonts/eb-garamond-v9-latin-regular.ttf") format("truetype"), url("https://rejniak.com/assets/fonts/eb-garamond-v9-latin-regular.svg#EBGaramond") format("svg"); /* Legacy iOS */
 }
 body {
   background: #fede00;
@@ -394,7 +394,7 @@ hr {
   width: 152px;
   height: 12px;
   margin: 0.5em auto 0;
-  background: url(/https://rejniak.com/assets/images/divider.svg) no-repeat top center;
+  background: url(https://rejniak.com/assets/images/divider.svg) no-repeat top center;
   margin: 4em 0;
 }
 
@@ -424,7 +424,7 @@ figcaption {
   width: 152px;
   height: 12px;
   margin: 0.5em auto 0;
-  background: url(/https://rejniak.com/assets/images/divider.svg) no-repeat top center;
+  background: url(https://rejniak.com/assets/images/divider.svg) no-repeat top center;
 }
 
 .home {
@@ -706,7 +706,7 @@ figcaption {
   width: 152px;
   height: 12px;
   margin: 0.5em auto 0;
-  background: url(/https://rejniak.com/assets/images/divider.svg) no-repeat top center;
+  background: url(https://rejniak.com/assets/images/divider.svg) no-repeat top center;
   margin: 4em auto;
 }
 
