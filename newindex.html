@@ -6,33 +6,48 @@
     <title>Landing Page</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
             text-align: center;
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
         }
         .container {
             padding: 50px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
         .headline {
-            font-size: 36px;
+            font-size: 48px;
             font-weight: bold;
+            margin-bottom: 20px;
         }
         .subhead {
             font-size: 24px;
-            color: #555;
+            color: #777;
+            margin-bottom: 40px;
         }
         .image {
             margin-top: 20px;
+        }
+        .image img {
+            border-radius: 8px;
+            max-width: 100%;
+            height: auto;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="headline">Welcome to Our Landing Page</div>
-        <div class="subhead">We are glad to have you here</div>
+        <div class="headline">Hi. I'll be back ...</div>
+        <div class="subhead">Data science | GTM | Revenue | Family trauma</div>
         <div class="image">
-            <img src="path/to/your/image.jpg" alt="Landing Page Image" width="600">
+            <img src="path/to/your/image.jpg" alt="Landing Page Image">
         </div>
     </div>
 </body>
